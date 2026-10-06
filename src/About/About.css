@@ -24,6 +24,12 @@
   margin-top: 2.5vh;
   margin-bottom: 5vh;
   flex-wrap: wrap;
+
+  @media (max-width: 767px) {
+    & + .credit-row {
+      margin-top: -3vh;
+    }
+  }
 }
 
 .credit-cell {
@@ -50,6 +56,15 @@
   @media (max-width: 767px) {
     font-size: 2.5vh;
   }
+
+  &.music-name {
+    @media(max-width:767px){
+      width: max-content;
+      max-width: 80vw;
+      align-self: center;
+      text-align: center;
+    }
+  }
 }
 
 .credit-title {
@@ -58,7 +73,13 @@
 
   @media (max-width: 767px) {
     font-size: 2vh;
+    width: max-content;
+    max-width: 80vw;
+    text-align: center;
+    line-height: 1.4;
+    align-self: center;
   }
+  
 }
 
 .thankyou-box {

@@ -217,7 +217,9 @@ const About = () => {
           target="_blank"
         >
           <img className="border-4 border-custom-purple" src="credits/Shimtone.jpg" alt="Shimtone Music" />
-          <div className="credit-name">Shimtone - シムトーン</div>
+          <div className="credit-name music-name">
+            Shimtone - シムトーン
+          </div>
           <div className="credit-title">Menu Music </div>
         </a>
       </div>
